@@ -1,0 +1,596 @@
+* {
+    font-family: "Hachi Maru Pop", cursive;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: #eff4ff;
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::before {
+    content: "";
+
+    position: fixed;
+    inset: 0;
+
+    background-image: url("photos/background.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top left;
+
+    opacity: 0.40;
+
+    z-index: -1;
+}
+
+.content {
+    text-align: center;
+
+    background: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    width: fit-content;
+
+    position: relative;
+    z-index: 10;
+
+    margin: auto;
+}
+
+button {
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 20px;
+
+    background: #B9A7E8;
+    color: white;
+
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#noButton {
+    position: relative;
+}
+
+
+.fade-out {
+    opacity: 0;
+
+    transform: scale(0.9);
+
+    transition:
+        opacity 0.6s ease,
+        transform 0.6s ease;
+}
+
+
+.birthday-page {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    overflow: hidden;
+
+    background-image: url("photos/background.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.birthday-content {
+    background: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    animation: appear 1s ease;
+}
+
+.book-page {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.book-page.is-open .cat-heart {
+    opacity: 1;
+}
+
+.book {
+    position: relative;
+
+    width: 900px;
+    height: 600px;
+
+    z-index: 10;
+
+    opacity: 0;
+    transform: scale(0.9);
+
+    animation: bookOpen 0.8s ease forwards;
+}
+
+@keyframes bookOpen {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.spread {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    display: flex;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: scale(0.95);
+
+    transition:
+        opacity 0.5s ease,
+        transform 0.5s ease;
+}
+
+
+.spread.active {
+    opacity: 1;
+    visibility: visible;
+
+    transform: scale(1);
+}
+
+
+.page {
+    width: 50%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    background: #FAFCFF;
+
+    padding: 60px;
+
+    position: relative;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+.left-page {
+    border-radius: 20px 0 0 20px;
+    border-right: 2px solid #B9A7E8;
+}
+
+.right-page {
+    border-radius: 0 20px 20px 0;
+}
+
+
+.book::after {
+    content: "";
+    position: absolute;
+
+    left: 50%;
+    top: 0;
+
+    width: 3px;
+    height: 100%;
+
+    background: #c4b3f0;
+
+    transform: translateX(-50%);
+
+    z-index: 20;
+}
+
+
+.page h1 {
+    font-size: 30px;
+
+    margin-top: 10px;
+}
+
+.page p {
+    font-size: 16px;
+
+    line-height: 2;
+
+    margin-top: 25px;
+}
+
+
+.book-left-click,
+.book-right-click {
+    position: absolute;
+
+    top: 0;
+
+    width: 50%;
+    height: 100%;
+
+    z-index: 50;
+
+    cursor: pointer;
+}
+
+
+.book-left-click {
+    left: 0;
+}
+
+
+.book-right-click {
+    right: 0;
+}
+
+/* CAT HEART !!!! */
+.cat-heart {
+    position: absolute;
+
+    font-size: 28px;
+
+    color: #eb8ac6;
+
+    z-index: 30;
+
+    opacity: 0;
+
+    pointer-events: none;
+
+    animation: floatHeart 1.8s ease-in-out infinite;
+}
+
+.heart-1 {
+    top: 25%;
+    left: 25%;
+}
+
+.heart-2 {
+    top: 35%;
+    right: 25%;
+
+    animation-delay: 0.4s;
+}
+
+.heart-3 {
+    bottom: 25%;
+    left: 28%;
+
+    animation-delay: 0.8s;
+}
+
+.heart-4 {
+    bottom: 30%;
+    right: 27%;
+
+    animation-delay: 1.2s;
+}
+
+.heart-5 {
+    top: 15%;
+    left: 45%;
+}
+
+.heart-6 {
+    top: 20%;
+    right: 40%;
+    animation-delay: 0.3s;
+}
+
+.heart-7 {
+    top: 50%;
+    left: 15%;
+    animation-delay: 0.6s;
+}
+
+.heart-8 {
+    top: 55%;
+    right: 15%;
+    animation-delay: 0.9s;
+}
+
+.heart-9 {
+    bottom: 15%;
+    left: 45%;
+    animation-delay: 1.2s;
+}
+
+.heart-10 {
+    bottom: 20%;
+    right: 40%;
+    animation-delay: 1.5s;
+}
+
+@keyframes floatHeart {
+    0%, 100% {
+        transform: translateY(0) scale(1);
+    }
+
+    50% {
+        transform: translateY(-12px) scale(1.1);
+    }
+}
+
+.cats {
+    position: absolute;
+
+    top: -150px;
+    left: 10%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: flex-end;
+
+    gap: 0;
+
+    width: max-content;
+
+    z-index: 20;
+}
+
+.cats img {
+    width: 250px;
+    height: auto;
+
+    object-fit: contain;
+    image-rendering: pixelated;
+
+    margin: 0 -90px;
+}
+
+.book-cat {
+    position: absolute;
+
+    width: 250px;
+    height: auto;
+
+    top: 80%;
+    left: 27%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 30;
+
+    image-rendering: pixelated;
+
+    pointer-events: none;
+}
+
+.cat-four {
+    top: 80%;
+    left: 27%;
+}
+
+.cat-five {
+    top: 80%;
+    left: 73%;
+}
+
+.sad-page {
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sad-box {
+    text-align: center;
+
+    background: #ffffff;
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    position: relative;
+
+    width: fit-content;
+}
+
+.sad-cat {
+    position: absolute;
+
+    width: 500px; /* make it as big as you want */
+    height: auto;
+
+    image-rendering: pixelated;
+
+    left: 50%;
+    top: -300px;
+
+    transform: translateX(-50%);
+}
+
+.memory {
+    position: absolute;
+    z-index: 5;
+}
+
+.memory-photo {
+    display: block;
+
+    width: 250px;
+    height: auto;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: transform 0.3s ease;
+}
+
+.memory-description {
+    position: absolute;
+
+    width: 200px;
+
+    padding: 15px;
+
+    background: white;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+    top: 50%;
+    left: 100%;
+
+    transform: translate(20px, -50%);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+
+    z-index: -1;
+}
+
+.memory-description h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+}
+
+.memory-description p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* SHOW DESCRIPTION WHEN HOVERING */
+.memory:hover .memory-description {
+    opacity: 1;
+    visibility: visible;
+
+    transform: translate(0, -50%);
+}
+
+.memory:hover .memory-photo {
+    transform: scale(1.05);
+}
+
+.memory-1 {
+    top: -40px;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+.memory-7 {
+    top: 8%;
+    left: 5%;
+}
+
+.memory-2 {
+    top: 10%;
+    right: 5%;
+}
+
+.memory-3 {
+    bottom: 8%;
+    left: 4%;
+}
+
+.memory-4 {
+    bottom: 5%;
+    right: 6%;
+}
+
+.memory-5 {
+    top: 40%;
+    left: 1%;
+}
+
+.memory-6 {
+    top: 40%;
+    right: 1%;
+}
+
+.memory-7 {
+    top: 8%;
+    left: 5%;
+}
+
+.memory-2 .memory-description,
+.memory-4 .memory-description,
+.memory-6 .memory-description {
+    left: auto;
+    right: 100%;
+
+    transform: translate(-20px, -50%);
+}
+
+.memory-2:hover .memory-description,
+.memory-4:hover .memory-description,
+.memory-6:hover .memory-description {
+    transform: translate(0, -50%);
+}
+
+.cat-art {
+    font-family: "Hachi Maru Pop", cursive;
+    font-size: 24px;
+    line-height: 1.4;
+    text-align: center;
+    background: none;
+    border: none;
+}
+
+.book-text {
+    position: absolute;
+
+    width: 400px;
+    height: auto;
+
+    bottom: -80px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    z-index: 5;
+
+    pointer-events: none;
+}
