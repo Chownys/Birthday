@@ -254,16 +254,6 @@ button {
     cursor: pointer;
 }
 
-
-.book-left-click {
-    left: 0;
-}
-
-
-.book-right-click {
-    right: 0;
-}
-
 /* CAT HEART !!!! */
 .cat-heart {
     position: absolute;
@@ -467,7 +457,6 @@ button {
     position: absolute;
 
     width: 200px;
-
     padding: 15px;
 
     background: white;
@@ -487,7 +476,7 @@ button {
         opacity 0.3s ease,
         transform 0.3s ease;
 
-    z-index: -1;
+    z-index: 100;
 }
 
 .memory-description h3 {
@@ -518,11 +507,6 @@ button {
     left: 50%;
 
     transform: translateX(-50%);
-}
-
-.memory-7 {
-    top: 8%;
-    left: 5%;
 }
 
 .memory-2 {
