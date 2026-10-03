@@ -91,7 +91,8 @@ yesButton.addEventListener("click", function() {
                         </h3>
 
                         <p>
-                            We played Volleyball during this day ⸜(｡˃ ᵕ ˂ )⸝♡
+                            We played Volleyball during this day<br>
+                            ⸜(｡˃ ᵕ ˂ )⸝♡
                         </p>
 
                     </div>
