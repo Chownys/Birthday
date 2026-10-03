@@ -91,8 +91,7 @@ yesButton.addEventListener("click", function() {
                         </h3>
 
                         <p>
-                            We played Volleyball during this day<br>
-                            ⸜(｡˃ ᵕ ˂ )⸝♡
+                            We played Volleyball during this day ⸜(｡˃ ᵕ ˂ )⸝♡
                         </p>
 
                     </div>
@@ -213,16 +212,75 @@ yesButton.addEventListener("click", function() {
 
                 <!-- HEARTS -->
 
-                <div class="cat-heart heart-1">♡</div>
-                <div class="cat-heart heart-2">♥</div>
-                <div class="cat-heart heart-3">♥</div>
-                <div class="cat-heart heart-4">♡</div>
-                <div class="cat-heart heart-5">♡</div>
-                <div class="cat-heart heart-6">♥</div>
-                <div class="cat-heart heart-7">♥</div>
-                <div class="cat-heart heart-8">♡</div>
-                <div class="cat-heart heart-9">♡</div>
-                <div class="cat-heart heart-10">♥</div>
+                <div class="cat-heart heart-1">
+                    ♥
+                    <div class="heart-reason">
+                        You always make me smile even when I'm sad !
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-2">
+                    ♡
+                    <div class="heart-reason">
+                        How you help me get closer to God :3
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-3">
+                    ♥
+                    <div class="heart-reason">
+                        I love your stupid cute little dimple 
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-4">
+                    ♥
+                    <div class="heart-reason">
+                        You make me feel appreciated (/≧▽≦)/
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-5">
+                    ♡
+                    <div class="heart-reason">
+                        I love all the memories we've made together (P.S we WILL make more.)
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-6">
+                    ♡
+                    <div class="heart-reason">
+                        How you care a lot about our relationship ( •̀ ω •́ )✧
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-7">
+                    ♥
+                    <div class="heart-reason">
+                        You always make me feel loved ♡
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-8">
+                    ♥
+                    <div class="heart-reason">
+                        You make me laugh so much > . < !!
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-9">
+                    ♡
+                    <div class="heart-reason">
+                        How strong you are (physically, mentally, emotionally, spiritually, etc.)
+                    </div>
+                </div>
+
+                <div class="cat-heart heart-10">
+                    ♡
+                    <div class="heart-reason">
+                        How I don't even need a reason to love you, I just do
+                    </div>
+                </div>
 
 
                 <!-- =========================
