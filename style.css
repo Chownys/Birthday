@@ -596,7 +596,6 @@ button {
     position: absolute;
     width: 500px;
     height: auto;
-    z-index: 100;
     pointer-events: none;
 }
 
@@ -604,6 +603,8 @@ button {
     top: -80px;
     left: 175px;
     transform: rotate(-30deg);
+
+    z-index: 40;
 }
 
 .bow2 {
@@ -611,4 +612,6 @@ button {
     top: 570px;
     right: 10px;
     transform: rotate(10deg);
+
+    z-index: 60;
 }
