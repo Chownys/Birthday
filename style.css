@@ -262,13 +262,68 @@ button {
 
     color: #eb8ac6;
 
-    z-index: 30;
+    z-index: 7  0;
 
     opacity: 0;
 
-    pointer-events: none;
-
     animation: floatHeart 1.8s ease-in-out infinite;
+}
+
+.heart-reason {
+    position: absolute;
+
+    width: 190px;
+    padding: 14px;
+
+    background: white;
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+
+    color: #555;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+
+    top: 50%;
+    left: 100%;
+
+    transform: translate(15px, -50%);
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition:
+        opacity 0.3s ease,
+        transform 0.3s ease;
+
+    z-index: 100;
+}
+
+.cat-heart:hover .heart-reason {
+    opacity: 1;
+    visibility: visible;
+
+    transform: translate(0, -50%);
+}
+
+.heart-2 .heart-reason,
+.heart-4 .heart-reason,
+.heart-6 .heart-reason,
+.heart-8 .heart-reason,
+.heart-10 .heart-reason {
+    left: auto;
+    right: 100%;
+
+    transform: translate(-15px, -50%);
+}
+
+.heart-2:hover .heart-reason,
+.heart-4:hover .heart-reason,
+.heart-6:hover .heart-reason,
+.heart-8:hover .heart-reason,
+.heart-10:hover .heart-reason {
+    transform: translate(0, -50%);
 }
 
 .heart-1 {
