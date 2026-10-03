@@ -17,6 +17,9 @@ yesButton.addEventListener("click", function() {
 
             <div class="book-page is-open">
 
+                <img src="photos/bow (1).png" class="bow bow1">
+                <img src="photos/bow (2).png" class="bow bow2">
+
                 <img 
                     src="photos/text.png" 
                     alt="Text"
@@ -28,8 +31,8 @@ yesButton.addEventListener("click", function() {
                 <div class="memory memory-1">
 
                     <img 
-                        class="memory-photo" 
-                        src="photos/other/us%20(1).png" 
+                        class="memory-photo"
+                        src="photos/other/us%20(1).png"
                         alt="Memory"
                     >
 
@@ -52,8 +55,8 @@ yesButton.addEventListener("click", function() {
                 <div class="memory memory-2">
 
                     <img 
-                        class="memory-photo" 
-                        src="photos/other/us%20(2).png" 
+                        class="memory-photo"
+                        src="photos/other/us%20(2).png"
                         alt="Memory"
                     >
 
@@ -76,8 +79,8 @@ yesButton.addEventListener("click", function() {
                 <div class="memory memory-3">
 
                     <img 
-                        class="memory-photo" 
-                        src="photos/other/us%20(3).png" 
+                        class="memory-photo"
+                        src="photos/other/us%20(3).png"
                         alt="Memory"
                     >
 
@@ -100,8 +103,8 @@ yesButton.addEventListener("click", function() {
                 <div class="memory memory-4">
 
                     <img 
-                        class="memory-photo" 
-                        src="photos/other/us%20(4).png" 
+                        class="memory-photo"
+                        src="photos/other/us%20(4).png"
                         alt="Memory"
                     >
 
@@ -124,8 +127,8 @@ yesButton.addEventListener("click", function() {
                 <div class="memory memory-5">
 
                     <img 
-                        class="memory-photo" 
-                        src="photos/other/us%20(5).png" 
+                        class="memory-photo"
+                        src="photos/other/us%20(5).png"
                         alt="Memory"
                     >
 
@@ -148,8 +151,8 @@ yesButton.addEventListener("click", function() {
                 <div class="memory memory-6">
 
                     <img 
-                        class="memory-photo" 
-                        src="photos/other/us%20(6).png" 
+                        class="memory-photo"
+                        src="photos/other/us%20(6).png"
                         alt="Memory"
                     >
 
@@ -172,8 +175,8 @@ yesButton.addEventListener("click", function() {
                 <div class="memory memory-7">
 
                     <img 
-                        class="memory-photo" 
-                        src="photos/other/us%20(7).png" 
+                        class="memory-photo"
+                        src="photos/other/us%20(7).png"
                         alt="Memory"
                     >
 
@@ -195,14 +198,14 @@ yesButton.addEventListener("click", function() {
                 <!-- CATS =￣v￣= -->
 
                 <img 
-                    class="book-cat cat-four" 
-                    src="photos/cat 4.png" 
+                    class="book-cat cat-four"
+                    src="photos/cat 4.png"
                     alt="Pixelated cat"
                 >
 
                 <img 
-                    class="book-cat cat-five" 
-                    src="photos/cat 5.png" 
+                    class="book-cat cat-five"
+                    src="photos/cat 5.png"
                     alt="Pixelated cat"
                 >
 
@@ -299,9 +302,9 @@ yesButton.addEventListener("click", function() {
                             </h1>
 
                             <p>
-                                Loving you is the best decision I have ever made and you are genuinely
-                                the best thing that has ever happened to me and it will continue to stay
-                                that way until I die. I have so much love for you in my heart that I can
+                                Loving you is the best decision I have ever made and you are genuinely 
+                                the best thing that has ever happened to me and it will continue to stay 
+                                that way until I die. I have so much love for you in my heart that I can 
                                 barely say it's mine anymore because it's so full of you. <br>
                                 ⸜(｡˃ ᵕ ˂ )⸝♡
                             </p>
@@ -316,15 +319,15 @@ yesButton.addEventListener("click", function() {
                             </h1>
 
                             <p>
-                                When someone asks me 
-                                <i>"Who do you even love? "</i> 
-                                I only think about you, and you only.
+                                When someone asks me  
+                                <i>"Who do you even love? "</i>  
+                                I only think about you, and you only. 
 
-                                When someone asks me 
-                                "What/Who makes you happy? "
-                                my mind only has one answer, and it's you;
+                                When someone asks me  
+                                "What/Who makes you happy? " 
+                                my mind only has one answer, and it's you; 
 
-                                I think that really speaks for itself.
+                                I think that really speaks for itself. 
                                 (づ￣ ³￣)づ
                             </p>
 
@@ -344,21 +347,21 @@ yesButton.addEventListener("click", function() {
                             </h1>
 
                             <p>
-                                I love it when I see something in duos or comes in pairs
-                                and I immediately think
+                                I love it when I see something in duos or comes in pairs 
+                                and I immediately think 
                                 <i>"Hey, that's us in another universe!"</i>
                             </p>
 
                             <p>
-                                I love it when random objects like a volleyball remind me
-                                of you. They make me think
+                                I love it when random objects like a volleyball remind me 
+                                of you. They make me think 
                                 <i>
                                     "I'm not so alone anymore, my heart feels so safe with my baby!"
                                 </i>
                             </p>
 
                             <p>
-                                You really do make me the happiest girl in the world
+                                You really do make me the happiest girl in the world 
                                 (≧∇≦)/
                             </p>
 
@@ -374,13 +377,13 @@ yesButton.addEventListener("click", function() {
                             <p>
                                 I really love you, I do. I would do anything for my baby.
 
-                                I would hold you in my arms when you're upset,
-                                wash your hair for you if you didn't have the energy,
+                                I would hold you in my arms when you're upset, 
+                                wash your hair for you if you didn't have the energy, 
                                 and help you when you need it.
                             </p>
 
                             <p>
-                                I would buy or make your favourite things to cheer you up
+                                I would buy or make your favourite things to cheer you up 
                                 when you have a bad day.
                             </p>
 
@@ -400,13 +403,13 @@ yesButton.addEventListener("click", function() {
                             </h1>
 
                             <p>
-                                I really would do anything for you—
-                                that's how special you are to me,
+                                I really would do anything for you— 
+                                that's how special you are to me, 
                                 and it will continue that way no matter what happens.
                             </p>
 
                             <p>
-                                You mean so much to me, and I hope you never forget
+                                You mean so much to me, and I hope you never forget 
                                 just how loved and appreciated you are.
                                 (つ≧▽≦)つ
                             </p>
@@ -421,9 +424,9 @@ yesButton.addEventListener("click", function() {
                             </h1>
 
                             <p>
-                                And because today is your special day,
-                                I hope you remember that you deserve to be celebrated—
-                                not just because it's your birthday,
+                                And because today is your special day, 
+                                I hope you remember that you deserve to be celebrated— 
+                                not just because it's your birthday, 
                                 but because you're someone worth celebrating every day.
                                 <br>
                                 ≽^•⩊•^≼
@@ -445,19 +448,19 @@ yesButton.addEventListener("click", function() {
                             </h1>
 
                             <p>
-                                I pray this year gives you happiness
+                                I pray this year gives you happiness 
                                 and more things to be proud of.
                             </p>
 
                             <p>
-                                I hope this new year of your life brings you
-                                lots of wonderful memories,
-                                fun adventures,
+                                I hope this new year of your life brings you 
+                                lots of wonderful memories, 
+                                fun adventures, 
                                 and moments that make you smile.
                             </p>
 
                             <p>
-                                Always remember how many people care about you
+                                Always remember how many people care about you 
                                 and how special you are.
                             </p>
 
@@ -471,12 +474,12 @@ yesButton.addEventListener("click", function() {
                             </h1>
 
                             <p>
-                                Enjoy your special day today and most importantly,
+                                Enjoy your special day today and most importantly, 
                                 enjoy being you.
                             </p>
 
                             <p>
-                                I hope this little website can serve as a reminder
+                                I hope this little website can serve as a reminder 
                                 of all the love and memories we've shared.
                             </p>
 
@@ -497,6 +500,22 @@ yesButton.addEventListener("click", function() {
 
                 </div>
                 <!-- END BOOK -->
+
+                <!-- MUSIC -->
+                <div id="spotifyPlayer">
+                    <iframe
+                        data-testid="embed-iframe"
+                        style="border-radius:12px"
+                        src="https://open.spotify.com/embed/track/5mtTAScDytxMMqZj14NmlN?utm_source=generator&si=f58afe5e8f424910"
+                        width="300"
+                        height="150"
+                        frameBorder="0"
+                        allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                </div>
+
 
             </div>
             <!-- END BOOK PAGE -->
@@ -601,7 +620,7 @@ noButton.addEventListener("click", function() {
             <div class="sad-box">
 
                 <img 
-                    src="photos/cat 1.png" 
+                    src="photos/cat 1.png"
                     alt="Sad cat"
                     class="sad-cat"
                 >
@@ -615,7 +634,10 @@ noButton.addEventListener("click", function() {
                 </h2>
 
             </div>
+            <!-- END BOOK -->
 
+            </div>
+            <!-- END BOOK PAGE -->
         </div>
 
     `;
